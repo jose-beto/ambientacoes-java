@@ -5,8 +5,17 @@ public class Main {
      {
          Scanner scanner = new Scanner(System.in);
 
+double galoes;
+double litros;
 
-         System.out.println("Óla Mundo, Boa tarde:");
+galoes=10;
 
+litros = galoes * 3.7854;
+
+
+         System.out.println(galoes + "\nGalões e equivalente a: " + litros + galoes );
+
+          
+scanner.close();
     }
 }
