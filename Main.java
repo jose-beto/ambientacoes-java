@@ -9,11 +9,12 @@ double galoes;
 double litros;
 
 galoes=10;
+litros=3.7854;
 
 litros = galoes * 3.7854;
 
 
-         System.out.println("Galões: " + galoes + "\nGalões são equivalente a: " + litros + galoes );
+         System.out.println("Galões: " + galoes + "\nGalões são equivalente a: " + litros + galoes + "  litros" );
 
           
 scanner.close();
